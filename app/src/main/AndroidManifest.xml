@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/kartiicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/kartiicon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Turizm20"
+        tools:targetApi="31">
+        <activity
+            android:name=".Klimat"
+            android:exported="false" />
+        <activity
+            android:name=".Dostoprimech"
+            android:exported="false" />
+        <activity
+            android:name=".Informacia"
+            android:exported="false" />
+        <activity
+            android:name=".Opisanie"
+            android:exported="false" />
+        <activity
+            android:name=".Spravochnik"
+            android:exported="false" />
+        <activity
+            android:name=".MainMenu"
+            android:exported="false" />
+        <activity
+            android:name=".Registr"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Goroda.volgograd"
+            android:exported="false" />
+        <activity
+            android:name=".Goroda.sochi"
+            android:exported="false" />
+        <activity
+            android:name=".Goroda.rostov_na_donu"
+            android:exported="false" />
+        <activity
+            android:name=".Goroda.kerch"
+            android:exported="false" />
+        <activity
+            android:name=".Goroda.novorosisk"
+            android:exported="false" />
+        <activity
+            android:name=".Goroda.astrahani"
+            android:exported="false" />
+        <activity
+            android:name=".Goroda.sevastopol"
+            android:exported="false" />
+        <activity
+            android:name=".Goroda.anapa"
+            android:exported="false" />
+        <activity
+            android:name=".Goroda.krasnodar"
+            android:exported="false" />
+        <activity
+            android:name=".Goroda.maikop"
+            android:exported="false" />
+        <activity
+            android:name=".programm"
+            android:exported="false" />
+        <activity
+            android:name=".svedenia"
+            android:exported="false" />
+        <activity
+            android:name=".karta"
+            android:exported="false" />
+        <activity
+            android:name=".Authoriz"
+            android:exported="true"
+            android:theme="@style/Base.Theme.Turizm20.Launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
